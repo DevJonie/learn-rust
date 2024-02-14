@@ -19,7 +19,7 @@ fn main() {
     let index: usize = index
         .trim()
         .parse()
-        .expect("Index entered was is not a number");
+        .expect("Index entered is not a number");
 
     let element = months[index];
 
